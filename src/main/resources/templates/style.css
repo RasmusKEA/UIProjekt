@@ -1,0 +1,37 @@
+.vr{
+	border: 1px ;
+}
+
+.col-sm{
+	border: 1px ;
+	text-align: center;
+}
+
+.logo{
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.header-text{
+	font-size: 25px;
+	padding-top:10px;
+	font-family: courier;
+}
+
+.container a{
+	text-decoration: none;
+	color: #00b531;
+}
+
+.container a.active{
+	color: #015e1a;
+}
+
+.frontpageTopDiv, .frontpageBotPic{
+	padding-top: 50px;
+}
+
+.frontpageTopPic, .frontpageBotDiv{
+	padding-top: 125px;
+}
