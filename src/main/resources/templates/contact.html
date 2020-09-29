@@ -26,25 +26,37 @@
       <a class="active" href="contact.html"><p class="header-text">Kontakt</p></a>
     </div>
   </div>
+  </div>
 
-  <div class="boks">
-  <form action="action_page.php">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <form>
+          <input type="text" id="fname" name="firstname" placeholder="Indtast navn..">
+        </form>
+        <form>
+          <input type="text" id="lname" name="lastname" placeholder="Indtast adresse..">
+        </form>
+        <form>
+          <input type="text" id="lname" name="lastname" placeholder="Indtast telefonnummer..">
+        </form>
+        <form>
+          <input type="text" id="lname" name="lastname" placeholder="Indtast email..">
+        </form>
+      </div>
+      <div class="col-sm">
+            <textarea id="subject" name="subject" placeholder="Ved du, at allerede nu, at du har varer som du ønsker vi bruger? Så skriv dem her.." style="height:225px"></textarea>
+            <input type="submit" value="Submit">
+      </div>
+    </div>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
 
 
-</div>
+
+  </div>
+
+
+
+
 </body>
 </html>
