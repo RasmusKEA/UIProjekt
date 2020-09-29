@@ -35,3 +35,11 @@
 .frontpageTopPic, .frontpageBotDiv{
 	padding-top: 125px;
 }
+
+p{
+	font-family: courier;
+}
+
+.green{
+	color: #00b531;
+}
